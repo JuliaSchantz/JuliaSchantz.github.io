@@ -1,0 +1,41 @@
+#container {
+    margin: auto;
+    width: 318px;
+}
+
+#icon {
+    margin: auto;
+    padding: 8px 0 30px 65px;
+}
+
+#logo {
+    width: 180px;
+  }
+
+  /* Responsive styles */
+
+  @media (min-width: 768px) {
+    #container {
+        margin: 0;
+        width: 0;
+    }
+    #icon {
+        margin: auto;
+        padding: 18px 0 100px 45px;
+    }
+
+    #logo {
+        width: 216px;
+      }
+  }
+
+  @media (min-width: 1200px) {
+    #icon {
+        margin: auto;
+        padding: 18px 0 100px 45px;
+    }
+
+    #logo {
+        width: 300px;
+      }
+  }

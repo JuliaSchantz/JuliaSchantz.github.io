@@ -1,0 +1,38 @@
+.nav-dropdown {
+  display: none;
+}
+
+/* Responsive styles */
+
+
+@media (min-width: 1200px) {
+  .nav-dropdown {
+    display: block;
+    float: right;
+    margin-top: -153px;
+
+  &__list {
+    display: flex;
+  }
+}
+
+  .dropdown {
+    list-style-type: none;
+    margin-right: 80px;
+
+  &dropbtn {
+    color: $color-green-800;
+    text-shadow: 2px 2px 5px white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+  }
+
+  &__donate-button {
+    border: 2px solid $color-green-800;
+    border-radius: 3px;
+    padding: 4px 14px;
+  }
+}
+}

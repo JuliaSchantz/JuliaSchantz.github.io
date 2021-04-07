@@ -1,0 +1,150 @@
+.about-text {
+  margin-left: 30px;
+  width: 255px;
+
+  &__body {
+    color: $color-blue;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+  }
+}
+
+.about-belief {
+  width: 255px;
+
+ &__body {
+  color: $color-blue;
+  font-family: $font-body;
+  font-weight: $weight-regular;
+  margin: 10px 0 18px 30px;
+  }
+
+  &__header {
+    margin-top: 26px;
+  }
+}
+
+.about-name {
+  &-logo__image {
+    width: 250px;
+    margin: 30px;
+  }
+
+  &-text__body {
+    color: $color-green;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    margin: 10px 0 0 30px;
+    width: 270px;
+  }
+}
+
+.about-blue-background {
+  background-color: #E9EFF0;
+  padding: 26px 0 26px 0;
+}
+
+.about-green-background {
+  background-color: #D0D9BF;
+  padding: 26px 0 26px 0;
+}
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  .about-belief {
+    width: 680px;
+
+    &__body {
+     margin-left: 50px;
+     }
+
+     &__header {
+       margin-left: 50px;
+     }
+}
+
+  .about-text {
+    margin-left: 50px;
+    width: 660px;
+  }
+
+  .about-name {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .about-name {
+    &-logo__image {
+      width: 250px;
+      margin: 85px 49px 0 50px;
+    }
+
+    &-text__body {
+      margin: 10px 0 0 30px;
+      padding-right: 19px;
+      width: 370px;
+    }
+
+    &-text__header {
+      padding-left: 30px;
+    }
+
+  }
+
+  .about-blue-background {
+    padding: 30px 0;
+  }
+
+  .about-green-background {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-belief {
+    width: 900px;
+
+    &__body {
+     margin-left: 80px;
+     }
+
+     &__header {
+       margin: 40px 0 0 80px;
+     }
+  }
+
+  .about-text {
+    margin-left: 80px;
+    width: 900px;
+  }
+
+  .about-name {
+    margin-top: 80px;
+  }
+
+  .about-name {
+    &-logo__image {
+      width: 320px;
+      margin: 120px 60px 0 80px;
+    }
+
+    &-text__body {
+      margin: 9px 0 0 50px;
+      padding-right: 80px;
+      width: 611px;
+    }
+
+    &-text__header {
+      padding-left: 50px;
+    }
+  }
+
+  .about-blue-background {
+    padding: 50px 0;
+  }
+
+  .about-green-background {
+    padding: 50px 0;
+  }
+}
