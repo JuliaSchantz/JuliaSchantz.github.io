@@ -1,0 +1,131 @@
+  .donate {
+    background-color: #EBF0E0;
+    padding: 2px 30px 30px 30px;
+  }
+
+  #Frequency {
+    width: 130px;
+    padding: 3px;
+    color: $color-green;
+    margin-top: 5px;
+  }
+
+  .donate-form__button {
+    font-weight: $weight-semi-bold;
+    font-size: 0.8rem;
+    color: white;
+    border: 2px solid $color-green-800;
+    background-color: $color-green-800;
+    border-radius: 3px;
+    padding: 4px 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  #donation {
+    width: 120px;
+    padding: 3px;
+    color: $color-green;
+  }
+
+  .donate-img {
+    width: 318px;
+    margin: 30px 0 0 0;
+  }
+
+  .donate__header {
+    margin: 22px 0 10px 0;
+    color: $color-blue-800;
+  }
+
+  .donate-text {
+    margin: 26px 0 26px 30px;
+    width: 255px;
+
+    &__body {
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    }
+  }
+
+  .donate-dark-text {
+    color: $color-blue-800;
+  }
+
+  .donate-lt-text {
+    color: $color-blue;
+  }
+
+  .giving-header {
+    color: $color-green;
+  }
+
+  #green-line {
+    color: $color-green-800;
+  }
+
+  /* Responsive styles */
+
+  @media (min-width: 768px) {
+    .donate-img {
+      width: 518px;
+      height: 200px;
+      margin: 0;
+      object-fit: cover;
+      object-position: 60% top;
+    }
+
+    .donate-section {
+      display: flex;
+    }
+
+    .donate-section {
+      flex-direction: row-reverse;
+    }
+
+    .donate-text {
+      margin: 0 0 50px 50px;
+      width: 660px;
+    }
+
+    .donate {
+      padding: 12px 120px 30px 40px;
+      width: 200px;
+  }
+
+    .donate-form__button {
+      font-size: 1rem;
+      width: 120px;
+  }
+
+  #Frequency {
+      font-size: 1rem;
+      width: 170px;
+  }
+
+  #donation {
+      font-size: 1rem;
+      width: 160px;
+  }
+}
+
+  @media (min-width: 1200px) {
+    .donate {
+      padding: 26px 130px 50px 80px;
+      width: 400px;
+  }
+
+    .donate-img {
+      width: 590px;
+      height: 240px;
+    }
+
+    .donate-section {
+      margin: 50px 0 50px 0;
+    }
+
+    .donate-text {
+      margin: 0 0 30px 80px;
+      width: 900px;
+    }
+}

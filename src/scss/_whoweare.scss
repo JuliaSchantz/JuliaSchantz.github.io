@@ -1,0 +1,73 @@
+  .whoweare-bottom {
+    margin-bottom: 30px;
+  }
+
+  .whoweare-text {
+    margin: 0 0 25px 30px;
+    width: 255px;
+
+    &__body {
+      color: $color-blue;
+      font-family: $font-body;
+      font-weight: $weight-regular;
+    }
+  }
+
+.whoweare-found {
+  width: 280px;
+  background-color: #E9EFF0;
+  padding: 24px 38px 5px 0;
+
+  &__body {
+    color: $color-blue;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    margin: 10px 0 24px 30px;
+  }
+}
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  .whoweare-found {
+    width: 730px;
+    padding: 30px 38px 5px 0;
+
+    &__header {
+      margin-left: 50px;
+    }
+
+    &__body {
+      margin-left: 50px;
+      margin-right: 10px;
+    }
+
+  }
+
+  .whoweare-text {
+    width: 670px;
+    margin: 0 0 30px 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .whoweare-found {
+    width: 1162px;
+    padding: 30px 38px 30px 0;
+
+    &__header {
+      margin: 20px 0 0 80px;
+    }
+
+    &__body {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  }
+
+  .whoweare-text {
+    margin-left: 80px;
+    margin-bottom: 40px;
+    width: 950px;
+  }
+}

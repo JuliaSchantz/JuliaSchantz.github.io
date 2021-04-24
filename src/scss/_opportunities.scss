@@ -68,6 +68,10 @@
     display: flex;
   }
 
+  .opportunity-item__text-header {
+    font-size: 1.2rem;
+  }
+
   .opportunity-list {
     margin-left: 50px;
     width: 640px;
@@ -100,6 +104,10 @@
     width: 320px;
     height: 320px;
     margin-left: 0;
+  }
+
+  .opportunity-item__text-header {
+    font-size: 1.4rem;
   }
 
   .opportunity-list {
