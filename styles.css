@@ -144,6 +144,9 @@ p {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: white; }
 
+.dropbtn:hover {
+  color: #96A2A4; }
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -166,7 +169,8 @@ p {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd; }
+  background-color: #E9EFF0;
+  color: #A2AE8A; }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -311,6 +315,10 @@ p {
   padding: 4px 14px;
   cursor: pointer; }
 
+.list-button:hover {
+  color: #96A2A4;
+  border: 2px solid #96A2A4; }
+
 .main-image {
   margin-left: 30px;
   width: 247px; }
@@ -350,13 +358,13 @@ p {
   width: 318px; }
   .main-need__header {
     color: #A2AE8A;
-    margin: 0 115px 0 115px;
+    margin: 0 114px 0 114px;
     padding-top: 24px; }
   .main-need__left {
     margin-right: 30px; }
   .main-need__list-image {
     width: 62px;
-    padding: 0 0 0 35px; }
+    padding: 0 0 0 29px; }
   .main-need__list {
     margin-left: 30px; }
   .main-need__list-text {
@@ -389,7 +397,7 @@ p {
     width: 250px;
     height: 250px; }
   .main-help__header {
-    margin: 0 66px 0 36px;
+    margin: 0 66px 0 35px;
     padding: 24px 0 16px 0;
     color: #A2AE8A; }
 
@@ -418,6 +426,9 @@ p {
     width: 120px;
     padding: 3px; }
 
+.main-subscribe__button:hover {
+  background-color: #96A2A4; }
+
 .white-button {
   background-color: white; }
 
@@ -438,12 +449,14 @@ p {
     .main-need__bottom {
       margin-top: 0; }
     .main-need__header {
-      margin: 0 329px 0 329px;
+      margin: 0 328px 0 328px;
       padding-top: 30px; }
     .main-need__list {
       margin: 20px 0 0 50px;
       display: flex;
       flex-flow: row wrap; }
+    .main-need__list-image {
+      padding: 0 0 0 45px; }
     .main-need__list-item {
       margin-right: 22px; }
     .main-need__list-text {
@@ -472,7 +485,7 @@ p {
   .main-help {
     margin: 0; }
     .main-help__header {
-      margin: 0 270px 0 270px;
+      margin: 0 268px 0 268px;
       padding: 30px 0 10px 0; }
     .main-help__list {
       margin-left: 50px; }
@@ -487,7 +500,7 @@ p {
       margin: 58px 0 0 28px;
       width: 400px; }
   .main-image {
-    margin-left: 50px; }
+    margin: 50px 0 0 50px; }
     .main-image__header {
       font-size: 1.6rem; }
     .main-image__text {
@@ -503,9 +516,9 @@ p {
     .main-subscribe__name-input {
       font-size: 1rem; }
     .main-subscribe__header {
-      padding: 30px 0 0 130px;
+      padding: 30px 0 0 127px;
       margin: 0;
-      width: 200px;
+      width: 210px;
       text-align: right; }
     .main-subscribe__data {
       width: 280px;
@@ -564,12 +577,16 @@ p {
     .main-need__list {
       margin-left: 80px; }
     .main-need__list-item {
-      margin-right: 22px; }
+      margin-right: 0; }
     .main-need__list-image {
       width: 85px;
-      margin-right: 130px; }
+      margin-right: 0;
+      padding: 0 0 0 38px; }
     .main-need__list-text {
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      width: 152px; }
+  #main-need-marg {
+    margin-right: 142px; }
   .main-subscribe__button {
     font-size: 1.2rem;
     padding: 8px;
@@ -579,7 +596,7 @@ p {
     width: 350px; }
   .main-subscribe__header {
     width: 320px;
-    padding: 60px 0 0 200px;
+    padding: 60px 0 0 180px;
     line-height: 2rem; }
   .main-subscribe__email-input {
     font-size: 1.2rem;
@@ -592,6 +609,8 @@ p {
 
 .involve-list {
   background-color: #E9EFF0; }
+  .involve-list__button {
+    background-color: #E9EFF0; }
   .involve-list__header {
     font-size: 1.1rem;
     color: #5A6162;
@@ -657,8 +676,8 @@ p {
       padding: 60px 0 25px 0;
       width: 365px; }
     .involve-list__text {
-      margin-left: 78px;
-      width: 160px; }
+      margin-left: 84px;
+      width: 153px; }
   .involve-text {
     margin-left: 80px;
     width: 900px; }
@@ -706,10 +725,10 @@ p {
 @media (min-width: 1200px) {
   .goal-images__right {
     width: 692px;
-    margin-bottom: 30px; }
+    margin-bottom: 3px; }
   .goal-images__left {
     width: 502px;
-    margin: 0 0 30px 0; }
+    margin: 0 0 3px 0; }
   .goal-link__button {
     margin-left: 80px; }
   .goal-text {
@@ -825,7 +844,7 @@ p {
   transition: color 0.3s ease; }
 
 .hamburger-content__link:hover {
-  color: #4E5B30; }
+  color: #C0C7C8; }
 
 .nav-hamburger-check {
   display: block;
@@ -1188,12 +1207,22 @@ p {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400; }
 
+.whoweare-image__one {
+  display: none; }
+
+.whoweare-image__two {
+  width: 318px;
+  margin-top: 24px; }
+
+#green-body {
+  color: #6F7B53; }
+
 .whoweare-found {
   width: 280px;
   background-color: #E9EFF0;
   padding: 24px 38px 5px 0; }
   .whoweare-found__body {
-    color: #96A2A4;
+    color: #5A6162;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     margin: 10px 0 24px 30px; }
@@ -1208,6 +1237,21 @@ p {
     .whoweare-found__body {
       margin-left: 50px;
       margin-right: 10px; }
+  .whoweare-image {
+    display: flex;
+    margin: 30px 0 5px 0; }
+    .whoweare-image__one {
+      display: block;
+      width: 350px;
+      margin-right: 5px;
+      height: 263px;
+      object-fit: contain; }
+    .whoweare-image__two {
+      width: 413px;
+      height: 263px;
+      margin-top: 30px;
+      object-fit: cover;
+      margin-top: 0; }
   .whoweare-text {
     width: 670px;
     margin: 0 0 30px 50px; } }
@@ -1221,6 +1265,15 @@ p {
     .whoweare-found__body {
       margin-left: 80px;
       margin-right: 80px; }
+  .whoweare-image {
+    margin: 30px 0 5px 0; }
+    .whoweare-image__one {
+      width: 492px;
+      height: 380px;
+      object-fit: cover; }
+    .whoweare-image__two {
+      width: 703px;
+      height: 380px; }
   .whoweare-text {
     margin-left: 80px;
     margin-bottom: 40px;
@@ -1246,6 +1299,10 @@ p {
   padding: 4px 14px;
   cursor: pointer;
   margin-top: 10px; }
+
+.donate-form__button:hover {
+  background-color: #96A2A4;
+  border: 2px solid #96A2A4; }
 
 #donation {
   width: 120px;
@@ -1319,5 +1376,111 @@ p {
   .donate-text {
     margin: 0 0 30px 80px;
     width: 900px; } }
+
+.whatwedo-descript {
+  margin-left: 30px;
+  width: 255px; }
+
+.whatwedo-open {
+  color: #96A2A4;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 18px 30px;
+  width: 250px; }
+
+.whatwedo-text__image {
+  width: 250px;
+  margin: 0 0 24px 30px; }
+
+.whatwedo-text__body {
+  margin: 10px 0 18px 30px;
+  width: 255px;
+  color: #5A6162;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
+
+.whatwedo-program {
+  background-color: #D0D9BF;
+  padding: 24px 0 1px 0; }
+
+.whatwedo-program__body {
+  color: #6F7B53;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 18px 0; }
+
+.whatwedo-goals {
+  margin-top: 26px; }
+
+.whatwedo-blue-background {
+  background-color: #E9EFF0;
+  padding: 1px 0; }
+
+.whatwedo-goals-list__item {
+  color: #6F7B53;
+  margin: 0 0 30px 48px;
+  list-style-type: circle;
+  width: 230px; }
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .whatwedo-text {
+    display: flex; }
+    .whatwedo-text__image {
+      width: 200px;
+      height: 200px;
+      margin: 26px 0 30px 50px;
+      order: 1; }
+    .whatwedo-text__body {
+      margin: 95px 0 0 50px;
+      width: 421px;
+      color: #5A6162;
+      order: 2; }
+  .whatwedo-goals {
+    margin: 30px 0 24px 50px; }
+    .whatwedo-goals-list__item {
+      margin: -15px 0 30px 67px;
+      width: 600px; }
+  .whatwedo-open {
+    margin: 16px 0 0 50px;
+    width: 660px; }
+  .whatwedo-descript {
+    margin-left: 50px;
+    width: 660px; }
+  .whatwedo-program {
+    padding: 30px 0 15px 0; }
+    .whatwedo-program__header {
+      margin-left: 50px; } }
+
+@media (min-width: 1200px) {
+  .whatwedo-text {
+    width: 1070px; }
+    .whatwedo-text__image {
+      width: 320px;
+      height: 320px;
+      margin: 26px 0 30px 80px; }
+    .whatwedo-text__body {
+      margin: 135px 0 0 80px;
+      width: 900px; }
+  .whatwedo-goals {
+    margin: 50px 0 26px 80px; }
+    .whatwedo-goals-list {
+      margin-bottom: 50px; }
+    .whatwedo-goals-list__item {
+      margin: -15px 0 30px 97px;
+      width: 960px; }
+  .whatwedo-open {
+    margin: 21px 0 0 80px;
+    width: 1000px; }
+  .whatwedo-descript {
+    margin-left: 80px;
+    width: 900px; }
+  .whatwedo-program {
+    padding: 50px 0 35px 0; }
+    .whatwedo-program__body {
+      width: 1000px; }
+    .whatwedo-program__header {
+      margin-left: 80px;
+      color: #5A6162; } }
 
 /*# sourceMappingURL=styles.css.map */

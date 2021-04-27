@@ -13,13 +13,26 @@
     }
   }
 
+  .whoweare-image__one {
+    display: none;
+  }
+
+  .whoweare-image__two {
+    width: 318px;
+    margin-top: 24px;
+  }
+
+  #green-body {
+    color: $color-green;
+  }
+
 .whoweare-found {
   width: 280px;
   background-color: #E9EFF0;
   padding: 24px 38px 5px 0;
 
   &__body {
-    color: $color-blue;
+    color: $color-blue-800;
     font-family: $font-body;
     font-weight: $weight-regular;
     margin: 10px 0 24px 30px;
@@ -41,8 +54,28 @@
       margin-left: 50px;
       margin-right: 10px;
     }
-
   }
+
+  .whoweare-image {
+    display: flex;
+    margin: 30px 0 5px 0;
+
+    &__one {
+    display: block;
+    width: 350px;
+    margin-right: 5px;
+    height: 263px;
+    object-fit: contain;
+  }
+
+    &__two {
+    width: 413px;
+    height: 263px;
+    margin-top: 30px;
+    object-fit: cover;
+    margin-top: 0;
+  }
+}
 
   .whoweare-text {
     width: 670px;
@@ -64,6 +97,21 @@
       margin-right: 80px;
     }
   }
+
+  .whoweare-image {
+    margin: 30px 0 5px 0;
+
+    &__one {
+    width: 492px;
+    height: 380px;
+    object-fit: cover;
+  }
+
+    &__two {
+    width: 703px;
+    height: 380px;
+}
+}
 
   .whoweare-text {
     margin-left: 80px;

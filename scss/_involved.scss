@@ -1,6 +1,9 @@
-
 .involve-list {
   background-color: #E9EFF0;
+
+  &__button {
+    background-color: #E9EFF0;
+  }
 
   &__header {
     font-size: 1.1rem;
@@ -104,8 +107,8 @@
     }
 
     &__text {
-      margin-left: 78px;
-      width: 160px;
+      margin-left: 84px;
+      width: 153px;
     }
 }
   .involve-text {
