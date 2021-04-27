@@ -41,6 +41,10 @@
   background-color: white;
 }
 
+.dropbtn:hover {
+  color: $color-blue;
+}
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -65,7 +69,8 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #E9EFF0;
+  color: $color-green-800;
 }
 
 /* Show the dropdown menu on hover */
